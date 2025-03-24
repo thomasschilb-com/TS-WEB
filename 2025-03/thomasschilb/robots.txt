@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Allow: /
+Disallow: ips/*.IP$
+
+User-agent: Bingbot
+Allow: /
+Disallow: ips/*.IP$
+
+User-agent: *
+Allow: /
+Disallow: ips/*.IP$
+
+Sitemap: http://thomasschilb.work/sitemap.xml
+Sitemap: http://ts-computing.com/sitemap.xml

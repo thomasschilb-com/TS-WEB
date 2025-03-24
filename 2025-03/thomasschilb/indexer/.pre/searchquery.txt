@@ -1,0 +1,1 @@
+[yoursearch] -inurl:(htm|html|php|pls|txt) intitle:index.of

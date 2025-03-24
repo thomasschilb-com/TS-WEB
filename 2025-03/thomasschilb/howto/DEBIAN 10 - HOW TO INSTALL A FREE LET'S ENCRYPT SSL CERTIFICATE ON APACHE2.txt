@@ -1,0 +1,33 @@
+DEBIAN 10
+
+HOW TO INSTALL A FREE LET'S ENCRYPT SSL CERTIFICATE ON APACHE2
+
+INSTALL APACHE2 & PHP
+
+# sudo apt install apache2 -y
+# sudo apt install php -y
+
+INSTALL CERTBOT ON APACHE
+
+# sudo apt install python3-certbot-apache -y
+
+SET THE SERVER NAME IN THE APACHE VIRTUAL HOST
+
+# sudo apt install nano -y
+# sudo nano /etc/apache2/sites-enabled/000-default.conf
+
+RESTART APACHE
+
+# sudo systemctl restart apache2
+
+GENERATE AND INSTALL SSL CERTIFICATE
+
+# sudo certbot --apache
+
+RESTART APACHE
+
+# sudo systemctl restart apache2
+
+LET'S ENCRYPT SSL CERTIFICATE RENEWAL ON DEBIAN
+
+# certbot renew

@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Allow: /
+Disallow: ips/*.IP$
+Disallow: ips/*.IP$
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.sonnensekte.de/sitemap.xml

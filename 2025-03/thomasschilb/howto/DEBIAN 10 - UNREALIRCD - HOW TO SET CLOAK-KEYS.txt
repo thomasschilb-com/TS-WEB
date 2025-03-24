@@ -1,0 +1,14 @@
+DEBIAN 10 - UNREALIRCD - HOW TO SET CLOAK-KEYS
+
+./unrealircd gencloak
+
+Example:
+
+/* This is just an example, don't actually use these keys yourself!! */
+set {
+    cloak-keys {
+        "g5Ea8V0j7gb3t7w8QFmFV7Qoacit6T62eOk3jlIn7Qg0YaGgBqj55";
+        "mVv4uVw3306We2HvgPWTk1q0Nvnrl6uCr6Bor57c01d4eB5s60eQ3";
+        "HPXLauAcFF058V4Ian7X1hlt0Yj0MGmooNqs5bALL3um5GwD3O6w0M5L";
+    };
+};

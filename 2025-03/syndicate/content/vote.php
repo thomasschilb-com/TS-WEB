@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="de" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>SYNDICATE | Vote</title>
+<style>
+/* BODY */
+
+body {
+  font-family: 'Share Tech Mono';
+	}
+
+/* HYPERLINKS */
+
+a {
+	color: #808080;
+	text-decoration: none;
+}
+a:visited {
+	color: #808080;
+}
+a:active {
+	color: #808080;
+}
+a:hover {
+	color: #FF0000;
+}
+
+/* TABLE */
+
+#tstable {
+  font-family: 'Share Tech Mono';
+  border-collapse: collapse;
+}
+
+#tstable td, #tstable th {
+  border: 0px solid #333333;
+  padding: 8px;
+}
+
+#tstable tr:nth-child(even){background-color: #202020;}
+
+#tstable tr:hover {background-color: #444444;}
+
+#tstable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333333;
+  color: white;
+}
+
+/* FONT, MISC */
+
+.font-normal {
+	font-weight: normal;
+}
+
+.auto-style2 {
+	font-size: 10pt;
+	text-align: center;
+}
+
+.auto-style5 {
+	font-size: medium;
+	text-align: left;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.auto-style7 {
+	text-align: center;
+}
+.auto-style8 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+</style>
+</head>
+
+<body style="margin: 0; color: #808080; background-color: #000000">
+<p class="auto-style8">
+V O T E</p>
+<p class="auto-style7">
+&nbsp;</p>
+<p class="auto-style2">
+<table id="tstable-privacy" align="center" cellpadding="15" cellspacing="0" style="width: 444px">
+	<tr>
+		<th class="auto-style5"><font size="3">TOPLIST</font></th>
+	</tr>
+	<tr>
+		<td>
+<p class="auto-style2">
+<font size="3">
+<a style="color: #3F3F3F;" id="graycol" target="_blank" href="https://top.nydus.org/vote/5185/">
+<img id="graycol" style="color: #3F3F3F;" alt="" border="1" src="img/top.nydus.org.1.gif"></a>
+<a style="color: #3F3F3F;" id="graycol" target="_blank" href="http://toplist.raidrush.ws/vote/7171/">
+<img id="graycol1" style="color: #3F3F3F;" alt="" border="1" src="img/toplist.raidrush.ws.1.gif"></a></font></p>
+		</td>
+	</tr>
+</table>
+</p>
+<p class="auto-style2"><em>Comment: "Vote for the time and money we spend on 
+this."</em></p>
+<p>&nbsp;</p>
+</body>
+
+</html>

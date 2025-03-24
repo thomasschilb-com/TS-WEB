@@ -1,0 +1,32 @@
+{
+    "name": "mhor/php-mp3info",
+    "description": "Simple class to parse mp3info command ID3 tags",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mhor",
+            "email": "maxime.horcholle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/process": "^3 | ^4",
+        "symfony/filesystem": "^3 | ^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": { "Mhor\\PhpMp3Info\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            " Mhor\\PhpMp3Info\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "v2.0.x-dev"
+        }
+    }
+}

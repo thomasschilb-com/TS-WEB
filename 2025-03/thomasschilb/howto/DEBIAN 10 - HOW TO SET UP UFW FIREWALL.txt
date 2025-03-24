@@ -1,0 +1,28 @@
+DEBIAN 10 - HOW TO SET UP UFW FIREWALL
+
+INSTALL UFW
+
+# sudo apt install ufw -y
+
+ALLOW SSH CONNECTIONS
+
+# sudo ufw allow ssh
+# sudo ufw allow 22
+
+ENABLE FIREWALL
+
+# sudo ufw enable
+
+SEE STATUS
+
+# sudo ufw status verbose
+
+ALLOW HTTP/HTTPS CONNECTIONS
+
+# sudo ufw allow http
+# sudo ufw allow https
+
+SEE YOUR IP-ADRESSES
+
+# ip addr
+

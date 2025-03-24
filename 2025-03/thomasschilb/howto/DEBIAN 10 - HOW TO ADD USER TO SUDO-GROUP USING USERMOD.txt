@@ -1,0 +1,32 @@
+DEBIAN 10 - HOW TO ADD USER TO SUDO-GROUP USING USERMOD
+
+Grant Sudo Privileges
+
+Users with root privileges can grant sudo privileges to any account. There are two ways to do this: via the usermod command or by editing the sudoers file. The following text elaborates on both options.
+
+Add Debian User to Sudo Group Using usermod
+
+All sudo group users have sudo privileges. To add a user to the sudo group via the usermod command, use the following:
+
+usermod -aG sudo username
+
+The command consists of the following parts:
+
+usermod. Modifies a user account.
+
+-aG tells the command to add the user to a specific group. The -a option adds a user to the group without removing it from current groups. The
+
+-G option states the group in which to add the user. In this case, these two options always go together.
+sudo. The group we append to the above options. In this case, it is sudo, but it can be any other group.
+
+-username. The name of the user account you want to add to the sudo group.
+
+For example, add user1 to the sudo group with:
+
+usermod -aG sudo user1
+
+The command has no output. However, to verify the new Debian sudo user was added to the group, run the command:
+
+getent group sudo
+
+The output lists all users in the group.
